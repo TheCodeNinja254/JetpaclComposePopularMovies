@@ -1,7 +1,6 @@
 package com.example.popularmovies
 
 import android.os.Bundle
-import android.view.ViewGroup
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.Image
@@ -21,8 +20,6 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowCompat
-import androidx.core.view.WindowInsetsCompat
-import androidx.core.view.updateLayoutParams
 import com.example.popularmovies.data.Movie
 import com.example.popularmovies.data.MovieData
 import com.example.popularmovies.ui.theme.PopularMoviesTheme
